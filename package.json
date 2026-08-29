@@ -1,0 +1,13 @@
+{
+  "name": "@homebase/infra-bridge",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The command bridge: a public, authenticated, short-lived queue. ChatGPT posts a command; the local sync agent pulls it, writes it to Homebase, and acks. Nothing is stored after an ack.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "typecheck": "node --check server.mjs && node --check queue.mjs"
+  }
+}
