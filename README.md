@@ -1,5 +1,7 @@
 # infra-bridge — the command bridge
 
+מצב: פתוח · מתאר גשר פקודות שבשימוש, בלי סימן לביטול; לפרויקט אין קובץ מצב כלל.
+
 The one public piece of the 2026-08-29 architecture, and deliberately the dumbest thing in the
 workspace: **an authenticated queue that forgets.**
 
